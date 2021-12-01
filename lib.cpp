@@ -2,9 +2,9 @@
 
 bool numeroPrimo(int a){
     bool primo = true;
-    for (int b=2; b<a; b++){
-        int risultato = a % b;
-        if (risultato==0 and b<a){
+    for (int i=2; i<a; i++){
+        int risultato = a % i;
+        if (risultato==0 and i<a){
             primo = false;
             break;
 
